@@ -3,6 +3,14 @@ import scipy.stats as ss
 
 
 def maxim(data):
+	'''
+	Calculates de maximum value in a list with nan values
+	Inputs:
+		- data: array-like.
+	Outputs:
+		- m: int, the maximun value in the array.
+		- ind: the index of the maximum.
+	'''
 	m = 0
 	ind = 0
 	for i in range(len(data)):
